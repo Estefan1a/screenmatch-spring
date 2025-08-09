@@ -13,6 +13,6 @@ public class EjemploStreams {
                 .limit(4)                   //VA A LIMITAR LA LISTA a 4
                 .filter(n->n.startsWith("B")) //Filtra los nombres que empiezan con "B"
                 .map(n->n.toUpperCase())      //Convierte los nombres en mayusculas
-                .forEach(System.out::println);      //Imprime los nombres 
+                .forEach(System.out::println);      //Imprime los nombres
     }
 }
